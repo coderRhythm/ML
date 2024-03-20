@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Scene Lookup</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="mb-4">Object Scene Lookup</h1>
+
+    <label for="video_code">Select Object:</label>
+    <select id="video_code" class="form-control mb-3">
+        <!-- Populate options dynamically using JavaScript -->
+    </select>
+
+    <button id="get_scene_btn" class="btn btn-primary">Get Scene Description</button>
+
+    <div id="result" class="mt-3">
+        <!-- Display result here -->
+    </div>
+</div>
+
+<script>
+    // Fetch object names dynamically
+    fetch('merged_dataset.csv')  // Specify the full path to your CSV file
+        .then(response => response.text())
+        .then(csvData => {
+            const rows = csvData.split('\n');
+            const objectNames = rows
+                .filter(row => row.trim() !== '')  // Skip empty lines
+                .map(row => row.split(',')[4].trim()); // Assuming object names are in the fifth column
+
+            const objectNameSelect = document.getElementById('video_code');
+
+            objectNames.forEach(objectName => {
+                const option = document.createElement('option');
+                option.value = objectName;
+                option.text = objectName;
+                objectNameSelect.appendChild(option);
+            });
+        });
+
+    // Handle button click
+    document.getElementById('get_scene_btn').addEventListener('click', () => {
+        const selectedObjectName = document.getElementById('video_code').value;
+
+        // Fetch scene description directly from the CSV (you may need to modify this part)
+        fetch('merged_dataset.csv')  // Specify the full path to your CSV file
+            .then(response => response.text())
+            .then(csvData => {
+                const rows = csvData.split('\n');
+                const result = rows
+                    .filter(row => row.trim() !== '')
+                    .filter(row => row.split(',')[4].trim() === selectedObjectName)
+                    .map(row => {
+                        const [class_code, video_code, class_description, object, scene] = row.split(',');
+                        return { class_description, scene };
+                    });
+
+                if (result.length > 0) {
+                    const { class_description, scene } = result[0];
+                    document.getElementById('result').innerHTML = `<p><strong>Class Description:</strong> ${class_description}</p><p><strong>Scene:</strong> ${scene}</p>`;
+                } else {
+                    document.getElementById('result').innerHTML = '<p>No data found for the selected object.</p>';
+                }
+            });
+    });
+</script>
+
+</body>
+</html>

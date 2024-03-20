@@ -1,0 +1,157 @@
+video_code,class_description,object,scene
+v016,Putting clothes somewhere,clothes,put
+v023,Taking some clothes from somewhere,clothes,take
+v025,Throwing clothes somewhere,clothes,throw
+v026,Tidying some clothes,clothes,tidy
+v030,Washing some clothes,clothes,wash
+v001,Closing a door,door,close
+v006,Fixing a door,door,fix
+v012,Opening a door,door,open
+v016,Putting something on a table,table,put
+v018,Sitting on a table,table,sit
+v018,Sitting at a table,table,sit
+v026,Tidying up a table,table,tidy
+v030,Washing a table,table,wash
+v032,Working at a table,table,work
+v008,Holding a phone/camera,phone/camera,hold
+v014,Playing with a phone/camera,phone/camera,play
+v016,Putting a phone/camera somewhere,phone/camera,put
+v023,Taking a phone/camera from somewhere,phone/camera,take
+v024,Talking on a phone/camera,phone/camera,talk
+v008,Holding a bag,bag,hold
+v012,Opening a bag,bag,open
+v016,Putting a bag somewhere,bag,put
+v023,Taking a bag from somewhere,bag,take
+v025,Throwing a bag somewhere,bag,throw
+v001,Closing a book,book,close
+v008,Holding a book,book,hold
+v012,Opening a book,book,open
+v016,Putting a book somewhere,book,put
+v019,Smiling at a book,book,smile
+v023,Taking a book from somewhere,book,take
+v025,Throwing a book somewhere,book,throw
+v031,Watching/Reading/Looking at a book,book,watch
+v008,Holding a towel/s,towel,hold
+v016,Putting a towel/s somewhere,towel,put
+v023,Taking a towel/s from somewhere,towel,take
+v025,Throwing a towel/s somewhere,towel,throw
+v026,Tidying up a towel/s,towel,tidy
+v030,Washing something with a towel,towel,wash
+v001,Closing a box,box,close
+v008,Holding a box,box,hold
+v012,Opening a box,box,open
+v016,Putting a box somewhere,box,put
+v023,Taking a box from somewhere,box,take
+v023,Taking something from a box,box,take
+v025,Throwing a box somewhere,box,throw
+v001,Closing a laptop,laptop,close
+v008,Holding a laptop,laptop,hold
+v012,Opening a laptop,laptop,open
+v016,Putting a laptop somewhere,laptop,put
+v023,Taking a laptop from somewhere,laptop,take
+v031,Watching a laptop or something on a laptop,laptop,watch
+v014,Working/Playing on a laptop,laptop,play
+v008,Holding a shoe/shoes,shoe,hold
+v016,Putting shoes somewhere,shoe,put
+v003,Putting on shoe/shoes,shoe,dress
+v023,Taking shoes from somewhere,shoe,take
+v028,Taking off some shoes,shoe,undress
+v025,Throwing shoes somewhere,shoe,throw
+v018,Sitting in a chair,chair,sit
+v022,Standing on a chair,chair,stand
+v008,Holding some food,food,hold
+v016,Putting some food somewhere,food,put
+v023,Taking food from somewhere,food,take
+v025,Throwing food somewhere,food,throw
+v005,Eating a sandwich,sandwich,eat
+v011,Making a sandwich,sandwich,make
+v008,Holding a sandwich,sandwich,hold
+v016,Putting a sandwich somewhere,sandwich,put
+v023,Taking a sandwich from somewhere,sandwich,take
+v008,Holding a blanket,blanket,hold
+v016,Putting a blanket somewhere,blanket,put
+v021,Snuggling with a blanket,blanket,snuggle
+v023,Taking a blanket from somewhere,blanket,take
+v025,Throwing a blanket somewhere,blanket,throw
+v026,Tidying up a blanket/s,blanket,tidy
+v008,Holding a pillow,pillow,hold
+v016,Putting a pillow somewhere,pillow,put
+v021,Snuggling with a pillow,pillow,snuggle
+v023,Taking a pillow from somewhere,pillow,take
+v025,Throwing a pillow somewhere,pillow,throw
+v016,Putting something on a shelf,shelf,put
+v026,Tidying a shelf or something on a shelf,shelf,tidy
+v023,Reaching for and grabbing a picture,picture,take
+v008,Holding a picture,picture,hold
+v009,Laughing at a picture,picture,laugh
+v016,Putting a picture somewhere,picture,put
+v013,Taking a picture of something,phone/camera,photograph
+v031,Watching/looking at a picture,picture,watch
+v001,Closing a window,window,close
+v012,Opening a window,window,open
+v030,Washing a window,window,wash
+v031,Watching/Looking outside of a window,window,watch
+v008,Holding a mirror,mirror,hold
+v019,Smiling in a mirror,mirror,smile
+v030,Washing a mirror,mirror,wash
+v031,Watching something/someone/themselves in a mirror,mirror,watch
+v029,Walking through a doorway,doorway,walk
+v008,Holding a broom,broom,hold
+v016,Putting a broom somewhere,broom,put
+v023,Taking a broom from somewhere,broom,take
+v025,Throwing a broom somewhere,broom,throw
+v026,Tidying up with a broom,broom,tidy
+v006,Fixing a light,light,fix
+v027,Turning on a light,light,turn
+v027,Turning off a light,light,turn
+v004,Drinking from a cup/glass/bottle,cup/glass/bottle,drink
+v008,Holding a cup/glass/bottle of something,cup/glass/bottle,hold
+v015,Pouring something into a cup/glass/bottle,cup/glass/bottle,pour
+v016,Putting a cup/glass/bottle somewhere,cup/glass/bottle,put
+v023,Taking a cup/glass/bottle from somewhere,cup/glass/bottle,take
+v030,Washing a cup/glass/bottle,cup/glass/bottle,wash
+v001,Closing a closet/cabinet,closet/cabinet,close
+v012,Opening a closet/cabinet,closet/cabinet,open
+v026,Tidying up a closet/cabinet,closet/cabinet,tidy
+v008,Someone is holding a paper/notebook,paper/notebook,hold
+v016,Putting their paper/notebook somewhere,paper/notebook,put
+v023,Taking paper/notebook from somewhere,paper/notebook,take
+v008,Holding a dish,dish,hold
+v016,Putting a dish/es somewhere,dish,put
+v023,Taking a dish/es from somewhere,dish,take
+v030,Wash a dish/dishes,dish,wash
+v010,Lying on a sofa/couch,sofa/couch,lie
+v018,Sitting on sofa/couch,sofa/couch,sit
+v010,Lying on the floor,floor,lie
+v018,Sitting on the floor,floor,sit
+v025,Throwing something on the floor,floor,throw
+v026,Tidying something on the floor,floor,tidy
+v008,Holding some medicine,medicine,hold
+v005,Taking/consuming some medicine,medicine,eat
+v016,Putting groceries somewhere,groceries,put
+v009,Laughing at television,television,laugh
+v031,Watching television,television,watch
+v000,Someone is awakening in bed,bed,awaken
+v010,Lying on a bed,bed,lie
+v018,Sitting in a bed,bed,sit
+v006,Fixing a vacuum,vacuum,fix
+v008,Holding a vacuum,vacuum,hold
+v023,Taking a vacuum from somewhere,vacuum,take
+v030,Washing their hands,hands,wash
+v006,Fixing a doorknob,doorknob,fix
+v007,Grasping onto a doorknob,doorknob,grasp
+v001,Closing a refrigerator,refrigerator,close
+v012,Opening a refrigerator,refrigerator,open
+v006,Fixing their hair,hair,fix
+v032,Working on paper/notebook,paper/notebook,work
+v000,Someone is awakening somewhere,,awaken
+v002,Someone is cooking something,food,cook
+v003,Someone is dressing,clothes,dress
+v009,Someone is laughing,,laugh
+v017,Someone is running somewhere,,run
+v018,Someone is going from standing to sitting,,sit
+v019,Someone is smiling,,smile
+v020,Someone is sneezing,,sneeze
+v022,Someone is standing up from somewhere,,stand
+v028,Someone is undressing,clothes,undress
+v005,Someone is eating something,food,eat
